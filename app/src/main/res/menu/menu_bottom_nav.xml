@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mNwes"
+        android:icon="@drawable/news"
+        android:title="News"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mGlobal"
+        android:icon="@drawable/global"
+        android:title="Global"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mForYou"
+        android:icon="@drawable/for_you"
+        android:title="For You"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mTredding"
+        android:icon="@drawable/tredding"
+        android:title="Trendding"
+        app:showAsAction="ifRoom" />
+</menu>
