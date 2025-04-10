@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mConversa"
+        android:icon="@drawable/conversa"
+        android:title="Conversa"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mAtualização"
+        android:icon="@drawable/atualizacao"
+        android:title="Atualização"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mComunidade"
+        android:icon="@drawable/comunidades"
+        android:title="Comunidade"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mLigação"
+        android:icon="@drawable/ligacao"
+        android:title="Ligação"
+        app:showAsAction="ifRoom" />
+
+</menu>

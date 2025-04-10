@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Camera"
+        android:id="@+id/mCamera"
+        android:icon="@drawable/camera"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title=""
+        android:id="@+id/m"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="Novo Grupo"
+        android:id="@+id/mNovoGrupo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Nova Transmissão"
+        android:id="@+id/mNovaTransmissão"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Dispositivos Conectados"
+        android:id="@+id/mDispositivosConectados"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Mensagens FAvoritas"
+        android:id="@+id/mMensagensFavoritas"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Encontrar Empresas"
+        android:id="@+id/mEncontrarEmpresas"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Pagamentos"
+        android:id="@+id/mPagamentos"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Configurações"
+        android:id="@+id/mConfigurações"
+        app:showAsAction="ifRoom"/>
+</menu>
