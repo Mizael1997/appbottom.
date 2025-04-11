@@ -7,14 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <com.google.android.material.bottomnavigation.BottomNavigationView
+
+   <com.google.android.material.appbar.MaterialToolbar
+       android:id="@+id/idtopbar"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       app:menu="@menu/menu_bottom_nav"
-       android:id="@+id/idBottomNav"
-       android:layout_gravity="bottom"
+       android:accessibilityPaneTitle="Whatsapp"
+       app:menu="@menu/superior"
+       app:title="WhatsApp"
+
        />
 
-
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:id="@+id/idBottomNav"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       app:menu="@menu/inferior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
