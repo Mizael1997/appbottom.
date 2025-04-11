@@ -3,13 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:title=""
+        android:id="@+id/m"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
         android:title="Camera"
         android:id="@+id/mCamera"
         android:icon="@drawable/camera"
-        app:showAsAction="ifRoom"/>
-    <item
-        android:title=""
-        android:id="@+id/m"
         app:showAsAction="ifRoom"/>
 
 
